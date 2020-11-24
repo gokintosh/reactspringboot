@@ -16,4 +16,12 @@ public class HomeController {
         return model;
     }
 
+    @RequestMapping(value={"/employee","/employee/index","/employee/form","/employee/edit/{id"},method = RequestMethod.GET)
+
+    public ModelAndView employee(){
+        ModelAndView model=new ModelAndView();
+        model.setViewName("Employee");
+        return model;
+    }
+
 }
