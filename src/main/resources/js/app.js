@@ -1,2 +1,2 @@
 require('./components/home');
-require('./components/gokul');
+require('./components/Main');
